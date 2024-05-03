@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ChangeDetectionStrategy } from '@angular/core';
 import { Restaurant } from '../../shared/models/Restaurant';
 import { RestaurantService } from '../service/restaurant.service';
 import { Router } from '@angular/router';
